@@ -27,7 +27,10 @@ tests/             unit and integration tests
 ```bash
 cd 03-deep-learning/project-09-industrial-strength-prediction-neural-network
 python -m venv .venv
+# On Windows:
 .venv\Scripts\activate
+# On macOS/Linux:
+# source .venv/bin/activate
 pip install -r requirements.txt
 python scripts/train.py
 pytest
