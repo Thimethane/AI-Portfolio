@@ -1,0 +1,22 @@
+data:
+  path: data/raw/Concrete_Data.csv
+  test_size: 0.2
+  random_state: 42
+  stratify_bins: 10
+
+training:
+  epochs: 650
+  learning_rate: 0.01
+  batch_size: 824
+  optimizer: adam
+  hidden_layers: [64, 32]
+  dropout: 0.05
+  weight_decay: 0.0001
+  device: cpu
+  log_interval: 100
+  use_mlflow: false
+  experiment_name: industrial-strength-prediction
+
+artifacts:
+  model_path: models/concrete_strength_mlp.pt
+  metrics_path: models/metrics.json

@@ -1,0 +1,8 @@
+services:
+  concrete-strength-api:
+    build: ..
+    ports:
+      - "8000:8000"
+    environment:
+      MODEL_ARTIFACT_PATH: /app/models/concrete_strength_mlp.pt
+

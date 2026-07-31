@@ -83,7 +83,7 @@ AI-Portfolio/
 ├── 02-machine-learning/
 │   └── README.md                     🚧 coming soon
 ├── 03-deep-learning/
-│   └── README.md                     🚧 coming soon
+│   └── project-09-industrial-strength-prediction-neural-network/
 ├── 04-computer-vision/
 │   └── README.md                     🚧 coming soon
 ├── 05-generative-ai/
@@ -102,12 +102,12 @@ Each subdirectory README will document that track's projects individually (probl
 |---|---|---|---|---|
 | Data Science | 4 | 4 | 0 | 0 |
 | Machine Learning | 4 | 4 | 0 | 0 |
-| Deep Learning | 10 | 10 | 0 | 0 |
+| Deep Learning | 10 | 9 | 0 | 1 |
 | Computer Vision | 4 | 4 | 0 | 0 |
 | Generative AI | 2 | 2 | 0 | 0 |
 | LLM Systems | 3 | 3 | 0 | 0 |
 | Production AI (Capstone) | 1 | 1 | 0 | 0 |
-| **Total** | **28** | **28** | **0** | **0** |
+| **Total** | **28** | **27** | **0** | **1** |
 
 *Updated manually for now — see [Roadmap & Tracking](#roadmap--tracking) for the live version.*
 
@@ -202,11 +202,11 @@ project-name/
 
 - 📋 **[docs/ROADMAP.md](docs/ROADMAP.md)** — the full 19-month, 28-project checklist, organized by stage and month
 - 📊 **[docs/projects.csv](docs/projects.csv)** — the same data, structured for import into a GitHub Projects Roadmap view
-- 🗂️ **GitHub Project board:** [github.com/users/Thimethane/projects/1](https://github.com/users/Thimethane/projects/1) *(update once created)* — live Kanban + timeline view, generated from `projects.csv` via `create_github_roadmap.py`
+- 🗂️ **GitHub Project board:** [github.com/users/Thimethane/projects/3](https://github.com/users/Thimethane/projects/3) *(update once created)* — live Kanban + timeline view, generated from `projects.csv` via `create_github_roadmap.py`
 
 ## Documentation
 
-- 📄 **[docs/Applied_AI_Data_Scientist_Roadmap.docx](docs/Applied_AI_Data_Scientist_Roadmap.docx)** — the source roadmap: full project specs, architecture diagrams, competency matrix, and execution plan
+- 📄 **[docs/Applied_AI_Data_Scientist_Roadmap.docx](docs/"Senior Applied AI Engineering System Prompt Generator.docx")** — the source roadmap: full project specs, architecture diagrams, competency matrix, and execution plan
 - Subdirectory READMEs (added as each track starts) will link back here and to the live deployment for each project
 
 ## Contributing

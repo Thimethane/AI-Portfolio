@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+mlruns/
+*.pyc
+models/concrete_strength_mlp_*.pt
+models/metrics_*.json
+models/mlflow_smoke.pt
+models/mlflow_smoke_metrics.json
